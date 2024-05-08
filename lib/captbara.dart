@@ -89,6 +89,9 @@ class _CapybaraState extends State<Capybara> {
 
       print(promt);
 
+      ///dont use api key like this
+      /// write a secure backend or add it to envirment variable
+
       const apiKey = "******************************";
       // if (apiKey == null) {
       //   print('No \$API_KEY environment variable');
